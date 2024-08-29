@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Honk&display=swap');
+
+body{
+  background-color: #ccc;
+  font-family: "Baskervville SC", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+  color: white;
+  text-align: center;
+  background-color: #333;
+  height: 50px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+a{
+  color: #fff;
+}
+
+.contato{
+  margin: auto;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+.bi-github{
+  margin: auto;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-img {
+  width: 160px;
+}
+
+.searchbar-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar {
+  background-color: white;  
+}
+
+.searchbar input {
+  width: 500px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+}
+
+.searchbar-btn button {
+  border-radius: 20px;
+  width: 500px;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+}
+
+.searchbar-btn button:hover {
+  border: 1px solid #fff;
+}
+
+
+.pokedex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.pokedex-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.pokemon-card {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 20px;
+
+}
+
+
+.pokemon-image {
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #444;
+  margin-right: 10px;
+  width: 120px;
+  transition: 0.6s;
+}
+
+.pokemon-image:hover {
+  width: 140px;
+  background-color: #222;
+}
+
+.pokemon-image-container {
+  padding: 0px 5px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0px;
+  flex: 1;
+
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top h3 {
+  text-transform: capitalize;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemon-type {
+  display: flex;
+}
+
+.pokemon-type-text {
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 5px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.pokemon-type-text:hover {
+  color: #fff;
+  background-color: #222;
+ padding: 8px;
+}
+
+.pagination-container {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.pagination-container > button{
+  padding: 8px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.pagination-container > button:hover{
+  color: #fff;
+  background-color: #222;
+}
+
+
+.pokemon-heart-btn {
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.not-found-text {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 20px;
+}
+
+.App {
+  text-align: center;
+}
